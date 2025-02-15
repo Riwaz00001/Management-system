@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIST National School of Sciences</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .hero {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #002f6c;
+            height: 70vh;
+            overflow: hidden;
+        }
+        .hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+        }
+        nav {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px 0;
+            text-align: center;
+            z-index: 10;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 80px;
+            font-size: 30px;
+        }
+        nav a:hover {
+            color: #b5ffed;
+        }
+        .section {
+            flex: auto;
+            background-color: white;
+            padding: 50px;
+            margin: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .blue-tinted-banner {
+            background-image: url('banner.jpg');
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(0, 47, 108, 0.7);
+            background-blend-mode: overlay;
+            text-align: center;
+            color: rgb(207, 200, 90);
+            padding: 100px 0;
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 34px;
+            color: #002f6c;
+        }
+        p {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+        }
+        .chairman-container {
+            display: flex;
+            align-items: center;
+            margin-top: 40px;
+            gap: 20px;
+        }
+        .chairman-container img {
+            width: 30%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .chairman-text {
+            width: 70%;
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Contact Section */
+        .contact-section {
+            background-color: #002f6c;
+            color: white;
+            padding: 40px 0;
+            margin-top: 40px;
+        }
+        .contact-container {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            width: 80%;
+            margin: auto;
+        }
+        .contact-logo {
+            width: 150px;
+            height: auto;
+        }
+        .contact-logo-text {
+            font-size: 16px;
+            margin: 10px;
+            padding: 2px;
+            line-height: 1.4;
+            max-width: 200px;
+        }
+        .contact-info {
+            flex: 1;
+            color: white;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .contact-details{
+            color: white;
+        }
+        .contact-info h3 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <!-- Updated href attributes to point to section IDs -->
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+            <a href="Adminlogin.php" target="_blank">Admin</a>
+        </nav>
+        <img src="nist2.jpg" alt="NIST National School of Sciences">
+    </div>
+
+    <!-- Added id="about" to the Introduction section -->
+    <div class="container" id="about">
+        <div class="section">
+            <h2>Introduction</h2>
+            <p>NIST National School of Sciences is a premier education institution, which was established in 1993.
+                 It is situated at Lainchour, strategically important location in the Kathmandu valley,
+                  and is one of the constituent institutions under the NIST Foundation. The school has been conducting Plus 2 programme
+                   (Grade 11 – 12), now Upper Secondary school classes, both in Science and Management for the last three decades.
+                    The school follows the national curriculum under the National Examination Board (NEB), Nepal. The school management 
+                    is planning to introduce other courses in Law, Arts and Humanities in Grade 11–12 in the near future while the ultimate
+                     goal is to provide the continuum of education from Pre–school to Grade 12 under the National School of Sciences within
+                      the next few years. The NIST Foundation was initiated by a group of scientists and academicians. The core objectives
+                       were to establish academic institutions, and to provide students …</p>
+        </div>
+    </div>
+
+    <div class="blue-tinted-banner">
+        Education for <span>Empowerment</span>
+    </div>
+
+    <div class="container">
+        <div class="chairman-container">
+            <img src="principal.jpg" alt="Principal">
+            <div class="chairman-text">
+                <h2>Message from the Chairman</h2>
+                <p>The National School of Sciences (NSS) is a premier education institute managed by the NIST Foundation that was established nearly three decades ago. The core objectives of the foundation, as an apex body, have been to establish education institutions, and provide students academic programmes from pre–school to high school to university. Today, there are nine academic institutions under the NIST Foundation across the Valley, and they offer different academic programmes such as Science, Management, IT, Pharmacy, Food Technology, Microbiology among others. I attribute the success of the institutions to the hard work, dedication and commitment of our teachers, admin staff and leadership team and trust and support of parents, students and other stakeholders. During this long academic journey, thousands of students have graduated from the National School of Sciences, let alone other institutions under the NIST Foundation. In the constantly changing context brought about by digital technology, uncertainty and global …</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Added id="contact" to the Contact section -->
+    <div class="contact-section" id="contact">
+        <div class="contact-container">
+            <div>
+                <img src="logo.png" alt="Logo" class="contact-logo">
+                <div class="contact-logo-text">National School of Sciences, established in 1993. one of the constituent institutions under the NIST Foundation.</div>
+            </div>
+            <div class="contact-info">
+                <h3>CONTACT</h3>
+                <p><div class="contact-details">
+                    Lainchour, Kathmandu<br>
+                    G.P.O. 8659 | Fax No.: +977 1 4428724<br>
+                    Phone: +977 (1) 4523706 / 4522050 / 4535408 / 4529035 / 4528724 / 4535243<br>
+                    Email: info@nss.edu.np, nistcoll@gmail.com
+                    <div>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

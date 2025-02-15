@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Bar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  /* Left Side: Logo and School Name */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+    mix-blend-mode: multiply;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .school-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Right Side: Navigation Links */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #34495e;
+    border-radius: 4px;
+  }
+  
+  /* Dropdown Menu Styles */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #34495e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #2c3e50;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Main Content Styles */
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content h1 {
+    color: #2c3e50;
+  }
+  
+  .content p {
+    color: #34495e;
+  }
+  
